@@ -10,6 +10,15 @@
 
 ---
 
+### Interests
+
+- **System Stability** — Distributed transactions, caching, monitoring
+- **Payment & E-commerce** — Raffle systems, PortOne integration, payment module design
+- **Automation** — CI/CD pipelines, test automation, crawling pipelines
+- **Architecture** — Clean Architecture, Hexagonal, MSA, design patterns for structural improvement
+
+---
+
 ### Tech Stack
 
 <p>
