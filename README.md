@@ -33,11 +33,7 @@
 | [objectionary/eo#5669](https://github.com/objectionary/eo/pull/5669) | 너비·정밀도·플래그가 붙은 `printf` 지정자까지 세도록 수정 |
 | [lysine-dev/okhttp#9634](https://github.com/lysine-dev/okhttp/pull/9634) | `@Nested` JUnit 5 테스트에서 `@StartStop` MockWebServer가 기동되도록 수정 |
 
-**코드를 바꾼 리뷰**
-
-리뷰할 때는 눈으로 읽는 데서 멈추지 않습니다. 브랜치를 받아서 주장대로 재현되는지 확인하고 깨뜨려 봅니다.
-
-깨지면 의견 대신 실패하는 케이스를 스레드에 가져갑니다. 아래는 그 케이스가 실제 코드 변경으로 이어진 리뷰입니다.
+**리뷰**
 
 - **[spring-cloud/spring-cloud-stream#3244](https://github.com/spring-cloud/spring-cloud-stream/pull/3244)** —
   `StreamBridge` 캐시 충돌을 고치는 PR이었습니다. diff는 맞아 보였지만 `int` 하나로 만든 해시 키가 "절대 공유되지 않는다"는 주석을 정말 보장하는지 의심스러웠습니다.
