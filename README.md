@@ -32,6 +32,9 @@
 | [objectionary/eo#6546](https://github.com/objectionary/eo/pull/6546) | `xslMeasures`를 절대 경로로 만든 뒤 parent를 가져오도록 수정 |
 | [objectionary/eo#5669](https://github.com/objectionary/eo/pull/5669) | 너비·정밀도·플래그가 붙은 `printf` 지정자까지 세도록 수정 |
 | [lysine-dev/okhttp#9634](https://github.com/lysine-dev/okhttp/pull/9634) | `@Nested` JUnit 5 테스트에서 `@StartStop` MockWebServer가 기동되도록 수정 |
+| [spring-cloud/spring-cloud-config#3282](https://github.com/spring-cloud/spring-cloud-config/pull/3282) | Redis 백엔드가 Git 백엔드처럼 공용 `application` 해시를 읽도록 수정, null·쉼표 구분 애플리케이션 이름 처리 포함 |
+| [spring-cloud/spring-cloud-openfeign#1410](https://github.com/spring-cloud/spring-cloud-openfeign/pull/1410) | 파라미터 프로세서가 바인딩한 GET 파라미터에 잘못 뜨던 경고 제거 (5.0.x에도 cherry-pick) |
+| [objectionary/eo#7999](https://github.com/objectionary/eo/pull/7999) | `%f`가 쓸 수 없는 이유를 출력하는 대신 종료하도록 수정 |
 
 **리뷰**
 
